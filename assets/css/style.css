@@ -131,18 +131,18 @@ label {
     font-size: 19px;
 }
 
-input {
+input,
+textarea {
     display: block;
     padding: 10px 10px;
     width: 875px;
+    max-width: 875px;
     border: 1px solid #cccccc;
     margin: 5px 0 20px 0;
     caret-color: #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
 }
 
-#bigBox input {
-    padding: 10px 10px 150px 10px;
-}
 
 button {
     color: white;
@@ -153,3 +153,5 @@ button {
     cursor: pointer;
     border: none;
 }
+
+
